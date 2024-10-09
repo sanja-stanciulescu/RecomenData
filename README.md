@@ -18,7 +18,7 @@ Cosine similarity is widely used in various applications, such as:
 
 The **recommendations.m** function receives the path to the .csv file, the index of the appreciated theme, the number of themes to recommend, the minimum number of reviews, and the number of singular values to keep. It returns the indices of the recommended themes.
 
-# Function Flow:
+### Function Flow:
 
 * Loading the matrix from the .csv file: The function read_mat is implemented to load the matrix using csvread.
 * Preprocessing the matrix: The matrix is preprocessed using the preprocess function.
